@@ -147,8 +147,8 @@ and provide clear, actionable recommendations for decision-makers.
 ---
 
 ## 📷 Project Deliverables
-- 📊 Power BI Dashboard → [Add link or screenshots here]  
-- 📜 SQL Queries → [Add repo folder or file link]  
+- 📊 Power BI Dashboard → [(https://github.com/ManoelVuu/Supply-Chain-Performance-Analysis/blob/main/projects-files/Supply%20Chain%20Report%20Page.pbix)] 
+- 📜 SQL Queries →   
 - 📑 Documentation → This README  
 
 ---
