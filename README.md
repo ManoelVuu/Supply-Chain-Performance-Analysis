@@ -3,6 +3,26 @@ The objective is to evaluate sales &amp; profitability, inventory alignment, sup
 
 ---
 
+## 📌 Executive Summary
+
+1. **Sales & Profitability** → Skincare drives revenue & profit; Cosmetics requires margin optimization.  
+2. **Inventory Management** → Misaligned stock levels; understock & long lead time increase stockout risk.  
+3. **Supplier Performance** → Long lead time directly linked to understock issues.  
+4. **Shipping & Logistics** → Trade-offs between cost and speed across carriers/routes.  
+5. **Quality Control** → Supplier 5 and Routes A & B drive most defects.  
+
+---
+
+## 🚀 Recommendations
+
+- **Revenue & Profitability:** Prioritize Skincare; revisit Cosmetics strategy.  
+- **Inventory Management:** Implement demand-driven replenishment; set reorder points.  
+- **Supplier Performance:** Diversify away from Supplier 3 & 5; negotiate SLAs.  
+- **Shipping & Logistics:** Favor Carrier B/Route A; investigate inefficiencies in Route B & Chennai.  
+- **Quality Control:** Audit Supplier 5; tighten inspections on Haircare & key logistics routes.  
+
+---
+
 ## 📌 Project Overview
 This project analyzes **supply chain performance** using **SQL** for querying and aggregation, and **Power BI** for visualization and storytelling.  
 
@@ -30,74 +50,88 @@ and provide clear, actionable recommendations for decision-makers.
 ---
 
 ## 🎯 Business Questions
+
 1. **Sales & Profitability**
-•	Which product types generate the most revenue?
-•	Which SKUs are bestsellers by quantity and revenue?
+- Which product types generate the most revenue?
+- Which SKUs are bestsellers by quantity and revenue?
   
-3. **Inventory** → Are stock levels aligned with sales? Which SKUs face risk of stockouts?  
-4. **Suppliers** → Who has the longest lead times? How does this affect stockouts?  
-5. **Shipping & Logistics** → Which carriers/routes are most efficient and cost-effective?  
-6. **Quality Control** → What are the defect rates by product, supplier, and route?  
+2. **Inventory Management**
+- Are stock levels aligned with sales?
+- Which products are at risk due to low stock and long lead times?
+
+3. **Supplier Performance**
+- Which suppliers have the longest lead times?
+- What is the relationship between supplier lead time and stockouts?
+  
+4. **Shipping & Logistics**
+- Which shipping carriers are cost-efficient and fast?
+- Are there specific routes or locations that increase cost or time?
+  
+9. **Quality Control**
+- What are the defect rates per product or production line?
+- Which suppliers or routes lead to higher defect rates?
 
 ---
 
 ## 🔍 Data Preparation & EDA
+
 - Minimal cleaning required (validated nulls, duplicates, and data types).  
-- Exploratory Data Analysis (EDA) uncovered patterns in sales, supplier performance, and logistics.  
+- The exploratory data analysis (EDA) focused on uncovering patterns, trends, and bottlenecks in supply chain performance.  
 
 **Key Findings:**
+
 - Skincare dominates revenue & profit.  
 - Cosmetics has highest average revenue per SKU but lower margins.  
 - Haircare products show higher defect rates.  
 - Mumbai & Kolkata perform best in sales; Delhi lags behind.  
-- Supplier 3 & 5 drive delays and defects.  
-- Route B is slowest and most costly.  
+- Supplier 3 & 5 drive delays and defects respectively.
+- Route B is slowest and Route C is most costly.  
 
 ---
 
 ## 📊 Insights by Business Area
 
-### 🛍 Sales & Profitability
-- Skincare leads in both revenue ($242K) and profit margin (40%).  
-- Top SKUs by revenue → SKU51, SKU38, SKU31.  
-- Top SKUs by quantity → SKU10, SKU94, SKU9.  
+### 💰 Sales & Profitability
+- Revenue: Skincare leads with $242K, followed by Haircare ($174K) and Cosmetics ($162K).
+- Profit Margins: Skincare (40%), Haircare (34%), Cosmetics (26%).
+- Bestsellers:
+o	By quantity → SKU10, SKU94, SKU9.
+o	By revenue → SKU51, SKU38, SKU31.
+➡️ Implication: Skincare drives both revenue and profit. Cosmetics requires pricing, cost, or marketing review.
+  
 
-### 📦 Inventory
-- 44% of SKUs are fast-moving, but 38% are understocked and 7% critically short.  
-- High-risk SKUs: SKU78 & SKU47 (low stock + long lead times).  
+### 📦 Inventory Management
+- Only 10% of products have balanced stock levels.
+- 44% are fast-moving, 38% understocked, 7% critically short.
+- High-risk SKUs: SKU78 and SKU47 (low stock + lead times >7 days).
+➡️ Implication: Misaligned stock levels increase risk of stockouts and excess holding costs.
 
-### 🤝 Suppliers
-- Supplier 3 → longest lead time (20.13 days) and highest understock rate (53%).  
-- Supplier 1 → shortest lead time (14.78 days) and lowest defect rate (1.80).  
+
+### 🤝 Supplier Performance
+- Longest Lead Time: Supplier 3 (20 days).
+- Correlation: Longer lead times link to higher understock rates.
+o	Supplier 3 → 53% understock.
+o	Supplier 2 → 54% understock.
+o	Supplier 4 → shorter lead time (15 days) with lowest understock rate (27.8%).
+➡️ Implication: Suppliers with high lead times drive stockouts.
 
 ### 🚚 Shipping & Logistics
-- Carrier A → fastest; Carrier B → most cost-efficient.  
-- Route A → best balance; Route B → worst (high cost + slowest).  
-- Location trade-offs: Mumbai (fastest but costly), Chennai (cheapest but slowest).  
+- Carriers: Carrier A is fastest; Carrier B is most cost-efficient.
+- Routes: Route A is balanced; Route B is slowest while Route C most costly.
+- Locations:
+o	Mumbai → fastest (14 days) but most expensive ($6.25).
+o	Chennai → cheapest ($4.69) but longest delays (17 days).
+➡️ Implication: Trade-offs exist between cost and speed; optimization is needed by carrier and route.
+ 
 
-### 🔧 Quality Control
-- Highest defects → Haircare (2.48).  
-- Supplier 5 records the most defects (2.67).  
-- Routes A & B show higher defect rates than Route C.  
-
----
-
-## 📌 Executive Summary
-1. **Sales & Profitability** → Skincare drives revenue & profit; Cosmetics requires margin optimization.  
-2. **Inventory** → Misaligned stock levels; understock & long lead times increase stockout risk.  
-3. **Suppliers** → Long lead times directly linked to understock issues.  
-4. **Logistics** → Trade-offs between cost and speed across carriers/routes.  
-5. **Quality Control** → Supplier 5 and Routes A & B drive most defects.  
-
----
-
-## 🚀 Recommendations
-- **Revenue & Profitability:** Prioritize Skincare; revisit Cosmetics strategy.  
-- **Inventory:** Implement demand-driven replenishment; set reorder points.  
-- **Suppliers:** Diversify away from Supplier 3 & 5; negotiate SLAs.  
-- **Logistics:** Favor Carrier B/Route A; investigate inefficiencies in Route B & Chennai.  
-- **Quality:** Audit Supplier 5; tighten inspections on Haircare & key logistics routes.  
-
+### ✅ Quality Control
+- Defect Rates by Product: Haircare (2.48) > Skincare (2.33) > Cosmetics (1.92).
+- Defect Rates by Supplier:
+o	Highest → Supplier 5 (2.67).
+o	Lowest → Supplier 1 (1.80).
+- Defect Rates by Route: Route A (2.34) and Route B (2.32) > Route C (2.05).
+➡️ Implication: Supplier 5 and certain logistics channels (Routes A & B) drive quality issues.
+ 
 ---
 
 ## 🛠 Tools & Technologies
