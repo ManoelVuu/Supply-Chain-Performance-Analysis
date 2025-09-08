@@ -95,8 +95,8 @@ and provide clear, actionable recommendations for decision-makers.
 - Revenue: Skincare leads with $242K, followed by Haircare ($174K) and Cosmetics ($162K).
 - Profit Margins: Skincare (40%), Haircare (34%), Cosmetics (26%).
 - Bestsellers:
-o	By quantity → SKU10, SKU94, SKU9.
-o	By revenue → SKU51, SKU38, SKU31.
+  - By quantity → SKU10, SKU94, SKU9.
+  - By revenue → SKU51, SKU38, SKU31.
 ➡️ Implication: Skincare drives both revenue and profit. Cosmetics requires pricing, cost, or marketing review.
   
 
@@ -110,25 +110,26 @@ o	By revenue → SKU51, SKU38, SKU31.
 ### 🤝 Supplier Performance
 - Longest Lead Time: Supplier 3 (20 days).
 - Correlation: Longer lead times link to higher understock rates.
-o	Supplier 3 → 53% understock.
-o	Supplier 2 → 54% understock.
-o	Supplier 4 → shorter lead time (15 days) with lowest understock rate (27.8%).
+  - Supplier 3 → 53% understock.
+  - Supplier 2 → 54% understock.
+  - Supplier 4 → shorter lead time (15 days) with lowest understock rate (27.8%).
 ➡️ Implication: Suppliers with high lead times drive stockouts.
+
 
 ### 🚚 Shipping & Logistics
 - Carriers: Carrier A is fastest; Carrier B is most cost-efficient.
 - Routes: Route A is balanced; Route B is slowest while Route C most costly.
 - Locations:
-o	Mumbai → fastest (14 days) but most expensive ($6.25).
-o	Chennai → cheapest ($4.69) but longest delays (17 days).
+  - Mumbai → fastest (14 days) but most expensive ($6.25).
+  - Chennai → cheapest ($4.69) but longest delays (17 days).
 ➡️ Implication: Trade-offs exist between cost and speed; optimization is needed by carrier and route.
  
 
 ### ✅ Quality Control
 - Defect Rates by Product: Haircare (2.48) > Skincare (2.33) > Cosmetics (1.92).
 - Defect Rates by Supplier:
-o	Highest → Supplier 5 (2.67).
-o	Lowest → Supplier 1 (1.80).
+  - Highest → Supplier 5 (2.67).
+  - Lowest → Supplier 1 (1.80).
 - Defect Rates by Route: Route A (2.34) and Route B (2.32) > Route C (2.05).
 ➡️ Implication: Supplier 5 and certain logistics channels (Routes A & B) drive quality issues.
  
