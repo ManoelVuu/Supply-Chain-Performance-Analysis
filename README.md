@@ -38,8 +38,8 @@ and provide clear, actionable recommendations for decision-makers.
 ---
 
 ## 📂 Dataset
-- **Source:** [Add dataset source or "Provided for competition/practice"]  
-- **Size:** ~[Add number of rows/columns]  
+- **Source:** Provided for competition/practice by Onyx Data  
+- **Size:** ~100 rows  
 - **Main Features:**  
   - Product details (type, SKU, price, stock levels, defect rates)  
   - Supplier information (lead times, performance)  
