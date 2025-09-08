@@ -30,11 +30,14 @@ and provide clear, actionable recommendations for decision-makers.
 ---
 
 ## 🎯 Business Questions
-1. **Sales & Profitability** → Which product types and SKUs drive the most revenue and profit?  
-2. **Inventory** → Are stock levels aligned with sales? Which SKUs face risk of stockouts?  
-3. **Suppliers** → Who has the longest lead times? How does this affect stockouts?  
-4. **Shipping & Logistics** → Which carriers/routes are most efficient and cost-effective?  
-5. **Quality Control** → What are the defect rates by product, supplier, and route?  
+1. **Sales & Profitability**
+•	Which product types generate the most revenue?
+•	Which SKUs are bestsellers by quantity and revenue?
+  
+3. **Inventory** → Are stock levels aligned with sales? Which SKUs face risk of stockouts?  
+4. **Suppliers** → Who has the longest lead times? How does this affect stockouts?  
+5. **Shipping & Logistics** → Which carriers/routes are most efficient and cost-effective?  
+6. **Quality Control** → What are the defect rates by product, supplier, and route?  
 
 ---
 
