@@ -97,6 +97,7 @@ and provide clear, actionable recommendations for decision-makers.
 - Bestsellers:
   - By quantity → SKU10, SKU94, SKU9.
   - By revenue → SKU51, SKU38, SKU31.
+    
 ➡️ Implication: Skincare drives both revenue and profit. Cosmetics requires pricing, cost, or marketing review.
   
 
@@ -104,6 +105,7 @@ and provide clear, actionable recommendations for decision-makers.
 - Only 10% of products have balanced stock levels.
 - 44% are fast-moving, 38% understocked, 7% critically short.
 - High-risk SKUs: SKU78 and SKU47 (low stock + lead times >7 days).
+  
 ➡️ Implication: Misaligned stock levels increase risk of stockouts and excess holding costs.
 
 
@@ -113,6 +115,7 @@ and provide clear, actionable recommendations for decision-makers.
   - Supplier 3 → 53% understock.
   - Supplier 2 → 54% understock.
   - Supplier 4 → shorter lead time (15 days) with lowest understock rate (27.8%).
+    
 ➡️ Implication: Suppliers with high lead times drive stockouts.
 
 
@@ -122,6 +125,7 @@ and provide clear, actionable recommendations for decision-makers.
 - Locations:
   - Mumbai → fastest (14 days) but most expensive ($6.25).
   - Chennai → cheapest ($4.69) but longest delays (17 days).
+    
 ➡️ Implication: Trade-offs exist between cost and speed; optimization is needed by carrier and route.
  
 
@@ -131,6 +135,7 @@ and provide clear, actionable recommendations for decision-makers.
   - Highest → Supplier 5 (2.67).
   - Lowest → Supplier 1 (1.80).
 - Defect Rates by Route: Route A (2.34) and Route B (2.32) > Route C (2.05).
+  
 ➡️ Implication: Supplier 5 and certain logistics channels (Routes A & B) drive quality issues.
  
 ---
