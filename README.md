@@ -1,7 +1,7 @@
-# Supply-Chain-Performance-Analysis
+# 📦 Supply-Chain-Performance-Analysis
 The objective is to evaluate sales &amp; profitability, inventory alignment, supplier performance, shipping efficiency, and quality control — and translate findings into clear, actionable recommendations for decision-makers.
 
-# 📦 Supply Chain Performance Analysis
+---
 
 ## 📌 Project Overview
 This project analyzes **supply chain performance** using **SQL** for querying and aggregation, and **Power BI** for visualization and storytelling.  
