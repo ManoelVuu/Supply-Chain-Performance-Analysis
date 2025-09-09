@@ -1,4 +1,6 @@
 # 📦 Supply-Chain-Performance-Analysis
+![360_F_90554856_mABMl9eC0sSoZSd8vbE4gWA0ufv2VMr7](https://github.com/user-attachments/assets/d14c61c0-a2d0-4886-a91c-560e72000db6)
+
 The objective is to evaluate sales &amp; profitability, inventory alignment, supplier performance, shipping efficiency, and quality control — and translate findings into clear, actionable recommendations for decision-makers.
 
 ---
