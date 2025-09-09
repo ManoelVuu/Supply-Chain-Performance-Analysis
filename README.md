@@ -94,6 +94,8 @@ and provide clear, actionable recommendations for decision-makers.
 ## 📊 Insights by Business Area
 
 ### 💰 Sales & Profitability
+<img width="1294" height="724" alt="Sales   Profitability" src="https://github.com/user-attachments/assets/b3e1e49b-d4ea-4702-98ec-4a2225ab744e" />
+
 - Revenue: Skincare leads with $242K, followed by Haircare ($174K) and Cosmetics ($162K).
 - Profit Margins: Skincare (40%), Haircare (34%), Cosmetics (26%).
 - Bestsellers:
@@ -104,6 +106,8 @@ and provide clear, actionable recommendations for decision-makers.
   
 
 ### 📦 Inventory Management
+<img width="1273" height="716" alt="Inventory Management" src="https://github.com/user-attachments/assets/59f4d58f-42d4-41cb-a556-49c847259933" />
+
 - Only 10% of products have balanced stock levels.
 - 44% are fast-moving, 38% understocked, 7% critically short.
 - High-risk SKUs: SKU78 and SKU47 (low stock + lead times >7 days).
@@ -112,6 +116,8 @@ and provide clear, actionable recommendations for decision-makers.
 
 
 ### 🤝 Supplier Performance
+<img width="1274" height="715" alt="Supplier Performance" src="https://github.com/user-attachments/assets/dd9e68ca-af01-464e-a39b-8900ff6eb1f5" />
+
 - Longest Lead Time: Supplier 3 (20 days).
 - Correlation: Longer lead times link to higher understock rates.
   - Supplier 3 → 53% understock.
@@ -122,6 +128,8 @@ and provide clear, actionable recommendations for decision-makers.
 
 
 ### 🚚 Shipping & Logistics
+<img width="1285" height="724" alt="Shipping   Logistics" src="https://github.com/user-attachments/assets/51b04f0b-daa7-4e81-a28f-97bc1288d8d8" />
+
 - Carriers: Carrier A is fastest; Carrier B is most cost-efficient.
 - Routes: Route A is balanced; Route B is slowest while Route C most costly.
 - Locations:
@@ -132,6 +140,8 @@ and provide clear, actionable recommendations for decision-makers.
  
 
 ### ✅ Quality Control
+<img width="1278" height="718" alt="Quality Control" src="https://github.com/user-attachments/assets/47f6d357-ff48-4bbe-b204-d3cdf8893018" />
+
 - Defect Rates by Product: Haircare (2.48) > Skincare (2.33) > Cosmetics (1.92).
 - Defect Rates by Supplier:
   - Highest → Supplier 5 (2.67).
@@ -163,5 +173,5 @@ and provide clear, actionable recommendations for decision-makers.
 
 ## 👤 Author
 **Manoel Vuu**  
-📧 [manoelvuu@gmail.com] | 🌐 [Portfolio/LinkedIn/GitHub link]  
+📧manoelvuu@gmail.com | 🌐 [Portfolio](https://bit.ly/ManoelVuu)
 
