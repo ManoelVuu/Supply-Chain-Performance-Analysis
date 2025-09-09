@@ -159,7 +159,7 @@ and provide clear, actionable recommendations for decision-makers.
 ---
 
 ## 📷 Project Deliverables
-- 📊 [Power BI Dashboard](https://github.com/ManoelVuu/Supply-Chain-Performance-Analysis/blob/main/projects-files/Supply%20Chain%20Report%20Page.pbix)  
+- 📊 [Power BI Dashboard](https://github.com/ManoelVuu/Supply-Chain-Performance-Analysis/blob/main/projects-files/Supply%20Chain%20Report%20Page.pbix)
 - 📜 [SQL Queries](https://github.com/ManoelVuu/Supply-Chain-Performance-Analysis/blob/main/projects-files/SQL%20queries.sql) 
  
 ---
